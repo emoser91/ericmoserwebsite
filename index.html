@@ -1,0 +1,70 @@
+<!--Note: Just typed ! then pressed tab for starter framework-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MyWebsite</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body> 
+       <header>
+           <nav>
+               <ul>
+                   <li> <a href="index.html">Home</a></li>
+                   <li> <a href="pages/about.html">About</a></li>
+                   <li class="mobile"><a href="pages/locations.html">Locations</a></li>
+                   <li class="mobile"><a href="pages/contacts.html">Contacts</a></li>
+                   <li class="logo"><a href="index.html">Eric Moser</a></li>
+                   <li class="desktop"><a href="pages/locations.html">Locations</a></li>
+                   <li class="desktop"><a href="pages/contacts.html">Contacts</a></li>
+
+               </ul>
+           </nav>
+        </header>
+       <!-- <section class="features">
+           <figure>
+               <a href="pages/FreshBread.html">
+                    <img src="images/breads2.jpg" alt="Fresh Baked Bread" id="Bread">
+                    <figcaption>Fresh Baked Bread</figcaption>
+                </a>
+           </figure>
+           <figure>
+                <img src="images/coffee.jpg" alt="Fresh Coffee" id="Coffee">
+                <figcaption>Fresh Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/goods.jpg" alt="Goods and Supplies" id="Goods">
+                <figcaption>Goods and Supplies</figcaption>
+            </figure>
+        </section> -->
+       <footer id="Footer">
+           123 Main Street Germantown, WI • 555-555-5555 us@me.com
+       </footer>
+
+       <!-- This is how to add Javascript, It is added here always -->
+       <!-- <script src="scripts/main.js"></script> -->
+
+       <!-- This is how to add JQuery -->
+       <!-- <script src="scripts/jQuery.js"></script> -->
+
+       <!-- <script>
+        // This is JQuery
+        // you can also just use $(function){ }); instead
+        $(document).ready(function(){
+        
+            $("#Bread").hide(1000).show(1000); //hides the first panel then shows it again
+            $("#Coffee").slideUp(1000).delay(1000).slideDown(1000);
+            //$('#Goods').fadeOut(1000).fadeIn(1000);
+            $('#Goods').fadeToggle(1000).fadeToggle(1000); //you can use toggle for most things
+
+            $("#Footer").css({
+                color:'red',
+                fontWeight:'bold'});
+        });
+        </script> -->
+
+    </body>
+</html>
